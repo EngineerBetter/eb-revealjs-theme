@@ -44,7 +44,11 @@ section.has-dark-background {
 }
 
 .highlight {
-  color: #b81d71;
+	color: #b81d71;
+}
+
+.reveal section img.plain {
+		background: none;
 }
 
 // Theme template ------------------------------
@@ -52,47 +56,47 @@ section.has-dark-background {
 // ---------------------------------------------
 
 html.bookend div.slide-background.present {
-  background-color: $headingColor;
-  background-image: url("/images/clipped-16x9-fill-blue.svg");
-  background-position: top-left, top-center;
-  background-repeat: no-repeat;
-  background-size: 95%;
+	background-color: $headingColor;
+	background-image: url("/images/clipped-16x9-fill-blue.svg");
+	background-position: top-left, top-center;
+	background-repeat: no-repeat;
+	background-size: 95%;
 }
 
 .bookend * {
-    color: #fff !important;
+		color: #fff !important;
 }
 
 div.slide-background.present {
-  background-color: #fff;
-  background-image: url("/images/clipped-16x9-fill.svg");
-  background-position: top-left, top-center;
-  background-repeat: no-repeat;
-  background-size: 95%;
+	background-color: #fff;
+	background-image: url("/images/clipped-16x9-fill.svg");
+	background-position: top-left, top-center;
+	background-repeat: no-repeat;
+	background-size: 95%;
 }
 
 html.clouds div.slide-background.present {
-  background-image: url("/images/overlay.png"), url("/images/clouds.jpg");
-  background-position: top-left, top-center;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
+	background-image: url("/images/overlay.png"), url("/images/clouds.jpg");
+	background-position: top-left, top-center;
+	background-repeat: repeat, no-repeat;
+	background-size: auto, cover;
 }
 
 .logo-box {
-  color: white;
+	color: white;
 }
 
 div.logo-box {
-  padding-top: 1em;
-  padding-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 div.logo-box h2, div.logo-box a {
-  font-family: Lato;
-  font-weight: normal;
-  letter-spacing: 0.1em;
+	font-family: Lato;
+	font-weight: normal;
+	letter-spacing: 0.1em;
 }
 
 div.logo-box h2 {
-  color: white;
+	color: white;
 }
