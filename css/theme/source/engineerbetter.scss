@@ -55,6 +55,10 @@ section.has-dark-background {
 @import "../template/theme";
 // ---------------------------------------------
 
+.bookend h1 {
+	text-transform: uppercase;
+}
+
 html.bookend div.slide-background.present {
 	background-color: $headingColor;
 	background-image: url("/images/clipped-16x9-fill-blue.svg");
